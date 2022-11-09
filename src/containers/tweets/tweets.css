@@ -1,0 +1,52 @@
+.reTweet__tweets {
+    display: flex;
+    flex-direction: column;
+}
+
+.reTweet__tweets-heading {
+    width: 100%;
+    text-align: left;
+    margin-bottom: 5rem;
+}
+.reTweet__tweets-heading h1 {
+   font-family: var(--font-family);
+   font-weight: 800;
+   font-size: 62px;
+   line-height: 75px;
+   padding: 2rem 0;
+}
+
+.reTweet__tweets-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.reTweet__tweets-container img {
+    max-height: 500px;
+    margin: 1rem;
+    border-radius: 10px;
+    transition: 1s all;
+}
+
+.reTweet__tweets-container img:hover {
+    transform: scale(1.3);
+    z-index: 2;
+}
+
+@media screen and (max-width: 700px) {
+	.reTweet__tweets-heading h1 {
+		font-size: 48px;
+		line-height: 60px;
+        padding: 1rem 0;
+	}
+}
+@media screen and (max-width: 500px) {
+    .reTweet__tweets-heading h1 {
+		line-height: 48px;
+     
+	}
+}
+
