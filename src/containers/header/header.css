@@ -1,0 +1,125 @@
+.reTweet__header {
+	display: flex;
+    flex-direction: row;
+}
+
+.reTweet__header-content {
+	flex: 1;
+	display: flex;
+	justify-content: center;
+	align-items: flex-start;
+	flex-direction: column;
+	margin-right: 5rem;
+}
+
+.reTweet__header-content h1 {
+	font-family: var(--font-family);
+	font-weight: 800;
+	font-size: 62px;
+	line-height: 75px;
+	padding: 2rem 0;
+}
+
+.reTweet__header-content p {
+	font-family: var(--font-family);
+    font-weight: 400;
+	font-size: 20px;
+	line-height: 27px;
+	color: var(--color-bg);
+	margin-top: 1.5rem;
+}
+
+.reTweet__header-content__input {
+	width: 100%;
+	margin: 2rem 0 1rem;
+	display: flex;
+	flex-direction: row;
+}
+.reTweet__header-content__input input {
+	background: var(--color-bg);
+	flex: 2;
+	width: 100%;
+	min-height: 50px;
+	color: var(--color-blog);
+	font-family: var(--font-family);
+    font-weight: 400;
+	font-size: 20px;
+	line-height: 27px;
+	border: 2px solid var(--color-blog);
+	padding: 0 1rem;
+	outline: none;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+
+.reTweet__header-content__input button {
+	flex: 0.6;
+	width: 100%;
+	min-height: 50px;
+	padding: 0 1rem;
+	color: var(--color-bg);
+	background: #284e77;
+	font-family: var(--font-family);
+	font-weight: 500;
+	font-size: 20px;
+	line-height: 27px;
+    border: 2px solid var(--color-blog);
+	outline: none;
+	cursor: pointer;
+	border-top-right-radius: 5px;
+	border-bottom-right-radius: 5px;
+}
+
+.reTweet__header-image {
+	flex: 1;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.reTweet__header-image img {
+    width: auto;
+	height: 500px;
+    border-radius: 30px;
+    box-shadow: 5px 2px 50px 1px rgb(8, 174, 225);
+}
+
+@media screen and (max-width: 1050px) {
+	.reTweet__header {
+		flex-direction: column;
+	}
+	.reTweet__header-content {
+		margin: 0 0 3rem;
+	}
+}
+@media screen and (max-width: 700px) {
+	.reTweet__header h1 {
+		font-size: 48px;
+		line-height: 60px;
+	}
+	.reTweet__header p {
+		font-size: 16px;
+		line-height: 24px;
+	}
+
+	.reTweet__header-content__input button,
+	.reTweet__header-content__input input {
+		font-size: 16px;
+		line-height: 24px;
+	}
+}
+
+@media screen and (max-width: 500px) {
+    .reTweet__header-content h1 {
+		font-size: 36px;
+		line-height: 48px;
+	}
+	.reTweet__header-content p {
+		font-size: 14px;
+		line-height: 24px;
+	}
+    .reTweet__header-content__input button,
+	.reTweet__header-content__input input {
+		font-size: 12px;
+		line-height: 16px;
+	}
+} 
