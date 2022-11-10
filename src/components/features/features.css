@@ -1,0 +1,59 @@
+.reTweet__features-container-feature {
+	width: 100%;
+	display: flex;
+	justify-content: flex-start ; /*space-between*/
+	align-items: center; /*flex-start*/
+	flex-direction: row;  /*column*/
+    margin: 1rem;
+}
+
+.reTweet__feature-container__feature-title {
+	flex: 1;
+	max-width: 200px;
+	margin-right: 2rem;
+}
+
+.reTweet__feature-container__feature-title h1 {
+	font-family: var(--font-family);
+	font-weight: 800;
+	font-size: 24px;
+	line-height: 36px;
+	color: var(--color-bg);
+}
+
+.reTweet__feature-container__feature-title div {
+	width: 50px;
+	height: 3px;
+	background: linear-gradient(89.97deg, #26b4f5 1.84%, #042c54 102.67%);
+	box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.3);
+	margin-bottom: 0.25rem;
+}
+
+.reTweet__feature-container__feature-text {
+    display: flex;
+	flex: 2;
+    max-width: 400px;
+}
+.reTweet__feature-container__feature-text p {
+   font-family: var(--font-family);
+   color: var(--color-bg);
+   font-weight: 500;
+   font-size: 18px;
+   line-height: 24px;
+}
+
+@media screen and (max-width: 550px) {
+    .reTweet__features-container__feature-title h1 {
+        font-size: 16px;
+        line-height: 22px;
+    }
+
+    .reTweet__features-container_feature-text p {
+        font-size: 12px;
+        line-height: 20px;
+    }
+
+    .reTweet__features-container__feature {
+        margin: 1rem 0;
+    }
+}
