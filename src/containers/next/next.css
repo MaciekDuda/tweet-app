@@ -1,0 +1,72 @@
+.reTweet__next {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row; /*row*/
+    padding: 2rem;
+
+    /* background: rgba(199,212,219,1);
+    background: -moz-linear-gradient(45deg, rgba(199,212,219,1) 0%, rgba(199,212,219,1) 1%, rgba(239,243,245,0.71) 100%);
+    background: -webkit-gradient(left bottom, right top, color-stop(0%, rgba(199,212,219,1)), color-stop(1%, rgba(199,212,219,1)), color-stop(100%, rgba(239,243,245,0.71)));
+    background: -webkit-linear-gradient(45deg, rgba(199,212,219,1) 0%, rgba(199,212,219,1) 1%, rgba(239,243,245,0.71) 100%);
+    background: -o-linear-gradient(45deg, rgba(199,212,219,1) 0%, rgba(199,212,219,1) 1%, rgba(239,243,245,0.71) 100%);
+    background: -ms-linear-gradient(45deg, rgba(199,212,219,1) 0%, rgba(199,212,219,1) 1%, rgba(239,243,245,0.71) 100%);
+    background: linear-gradient(45deg, rgba(199,212,219,1) 0%, rgba(199,212,219,1) 1%, rgba(239,243,245,0.71) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#c7d4db', endColorstr='#eff3f5', GradientType=1 ); */
+}
+
+.reTweet__next-heading {
+    display: flex;
+    flex: 1;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: column; /*column*/
+
+    text-align: left;
+    margin-right: 5rem;
+}
+
+.reTweet__next-heading h1 {
+    font-family: var(--font-family);
+    font-weight: 800;
+    font-size: 34px;
+    line-height: 45px;
+}
+
+.reTweet__next-heading p {
+    color: var(--color-bg);
+    font-size: 16px;
+    line-height: 30px;
+    font-weight: 500;
+    font-family: var(--font-family);
+
+    margin-top: 2rem;
+}
+
+.reTweet__next-container {
+    flex: 1.5;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+}
+.reTweet__next-cointainer-features {
+    flex-direction: row;
+}
+
+@media screen and (max-width: 990px) {
+    .reTweet__next {
+        flex-direction: column;
+    }
+
+    .reTweet__next-heading {
+        margin: 0 0 2rem 0;
+    }
+}
+
+
+@media screen and (max-width: 550px) {
+    .reTweet__next-heading h1 {
+        font-size: 28px;
+        line-height: 38px;
+    }
+}
