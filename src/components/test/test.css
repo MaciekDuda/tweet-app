@@ -1,0 +1,46 @@
+.reTweet__test {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin: 1rem 0;
+}
+.reTweet__test-container_tweet{
+    font-family: var(--font-family);
+    font-size: 12px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    max-width: 200px;
+    background-color: var(--color-bg);
+    border-radius: 5px;
+    box-shadow: 5px 2px 50px 1px rgb(8, 174, 225);
+    padding: 1rem;
+    margin: 1rem 0;
+}
+.reTweet__test-container_tweet h2{
+    text-transform: capitalize;
+    color: var(--color-blog);
+    margin-bottom: 1rem;
+
+
+}
+.reTweet__test-container_tweet p{
+    margin-bottom: 1rem;
+}
+
+.btn {
+    padding: 0.5rem;
+    width: 45%;
+	color: var(--color-bg);
+	background: #284e77;
+	font-family: var(--font-family);
+	font-weight: 500;
+	font-size: 12px;
+	line-height: 25px;
+	letter-spacing: 0.15rem;
+	border-radius: 5px;
+	box-shadow: 0 0 0 5 rgba(0, 0, 0, 0.2);
+	border: none;
+	outline: none;
+	cursor: pointer;
+}

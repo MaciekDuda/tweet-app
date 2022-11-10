@@ -2,11 +2,15 @@ import React from "react";
 import "./footer.css";
 import logo from "../../assets/logo.png";
 
+
+
 const Footer = () => {
+
+
 	return (
 		<div className="reTweet__footer section__padding" id="footer">
 			<div className="reTweet__footer-heading">
-				<h1 className="gradient__text">Footer text to fill </h1>
+				<h1 className="gradient__text">ReTweet Twitter App</h1>
 			</div>
 			<div className="reTweet__footer-btn">
 				<p>Postaw mi kawę</p>
@@ -18,9 +22,9 @@ const Footer = () => {
 				</div>
 				<div className="reTweet__footer-links_div">
 					<h4>Linki</h4>
-					<p>Twitter</p>
-					<p>Facebook</p>
-					<p>LinkdIn</p>
+					<a href="www.twitter.com">Twitter</a>
+					<a href="www.facebook.com">Facebook</a>
+					<a href="www.linkedin.com">LinkedIn</a>
 				</div>
 				<div className="reTweet__footer-links_div">
 					<h4>Informacje</h4>

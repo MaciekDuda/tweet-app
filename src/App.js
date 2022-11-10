@@ -4,6 +4,7 @@ import {
 	Logos,
 	Features,
 	Navbar,
+	Test,
 } from "../../tweet-app/src/components";
 import {
 	Footer,
@@ -21,6 +22,7 @@ const App = () => {
 				<div className="bg__tweet-layer">
 					<Navbar />
 					<Header />
+					<Test />
 					<Logos />
 					<Tweets />
 					<About />

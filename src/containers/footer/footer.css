@@ -97,6 +97,15 @@
     margin: 0.5rem 0;
     cursor: pointer;
 }
+.reTweet__footer-links_div a {
+    font-family: var(--font-family);
+    font-size: 18px;
+    line-height: 14px;
+    letter-spacing: 0.15rem;
+    color: var(--color-bg);
+    margin: 0.5rem 0;
+    cursor: pointer;
+}
 
 .reTweet__footer-copyright {
     margin-top: 2rem;
