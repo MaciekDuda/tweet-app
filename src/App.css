@@ -50,6 +50,12 @@ a {
 	-webkit-background-clip: text;
 	-webkit-text-fill-color: transparent;
 }
+.gradient__text-red {
+	background: var(--gradient-text-red);
+	background-clip: text;
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
 
 .section__padding {
 	padding: 4rem 6rem;

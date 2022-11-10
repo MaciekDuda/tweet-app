@@ -21,7 +21,7 @@ const Next = () => {
   return (
     <div className='reTweet__next section__margin' id="next">
       <div className='reTweet__next-heading'>
-        <h1 className='gradient__text-blue'>To dopiero początek! Zobacz jak ReTweet bedzie zmieniał się, aby jak najlepiej dopasować się do Twoich oczekiwań.</h1>
+        <h1 className='gradient__text-red'>To dopiero początek! Zobacz jak ReTweet bedzie zmieniał się, aby jak najlepiej dopasować się do Twoich oczekiwań.</h1>
         <p>Masz pomysł na nowe funkcje? Napisz!</p>
       </div>
       <div className='reTweet__next-cointainer'>
