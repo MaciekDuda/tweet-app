@@ -9,13 +9,13 @@ const Menu = () => (
 			<a href="#home">Home</a>
 		</p>
 		<p>
-			<a href="#about">Czym jest ReTweet?</a>
-		</p>
-		<p>
 			<a href="#tweets"></a>Tweety
 		</p>
 		<p>
-			<a href="#features"></a>W planach
+			<a href="#about">Czym jest ReTweet?</a>
+		</p>
+		<p>
+			<a href="#next"></a>W planach
 		</p>
 		<p>
 			<a href="#footer"></a>Kontakt
@@ -38,8 +38,8 @@ const Navbar = () => {
 				</div>
 			</div>
 			<div className="reTweet__navbar-sign">
-				<p>Sign in</p>
-				<button type="button">Sign Up</button>
+				<p>Zaloguj</p>
+				<button type="button">Rejestracja</button>
 			</div>
 			<div className="reTweet__navbar-menu">
 				{toggleMenu ? (
@@ -60,8 +60,8 @@ const Navbar = () => {
 						<div className="reTweet__navbar-menu_container-links">
 							<Menu />
 							<div className="reTweet__navbar-menu_container-links-sign">
-								<p>Sign in</p>
-								<button type="button">Sign Up</button>
+								<p>Zaloguj</p>
+								<button type="button">Rejestracja</button>
 							</div>
 						</div>
 					</div>

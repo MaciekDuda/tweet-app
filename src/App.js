@@ -4,14 +4,14 @@ import {
 	Logos,
 	Features,
 	Navbar,
-} from "../../re-tweet-app/src/components";
+} from "../../tweet-app/src/components";
 import {
 	Footer,
 	Header,
 	Tweets,
 	About,
 	Next,
-} from "../../re-tweet-app/src/containers";
+} from "../../tweet-app/src/containers";
 import "./App.css";
 
 const App = () => {

@@ -141,7 +141,4 @@
 	.reTweet__navbar-menu_container-links-sign {
 		display: block;
 	}
-	.reTweet__navbar-menu svg {
-		color: var(--color-blog);
-	}
 }

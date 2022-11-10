@@ -14,12 +14,13 @@ const About = () => {
 				<h1 className="gradient__text-blue">
 					ReTweet to Twoj ulubiony twitter w jednym miejscu
 				</h1>
-				<span><img src={logo} alt="logo" /></span>
+				<p><img src={logo} alt="logo" /></p>
 			</div>
 			<div className="reTweet__about-container">
 				<Features title="Polityka" text="Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos quae, sequi esse eveniet quasi voluptatum. Culpa aliquid quam similique dignissimos?" />
 				<Features title="Sport" text="Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos quae, sequi esse eveniet quasi voluptatum. Culpa aliquid quam similique dignissimos?"/>
 				<Features title="Kultura" text="Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos quae, sequi esse eveniet quasi voluptatum. Culpa aliquid quam similique dignissimos?"/>
+				<Features title="Technologie" text="Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos quae, sequi esse eveniet quasi voluptatum. Culpa aliquid quam similique dignissimos?"/>
 			</div>
 		</div>
 	);

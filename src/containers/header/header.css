@@ -91,7 +91,7 @@
 		margin: 0 0 3rem;
 	}
 }
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 650px) {
 	.reTweet__header h1 {
 		font-size: 48px;
 		line-height: 60px;
@@ -108,7 +108,7 @@
 	}
 }
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 490px) {
     .reTweet__header-content h1 {
 		font-size: 36px;
 		line-height: 48px;
