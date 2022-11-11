@@ -6,7 +6,10 @@ const Header = () => {
 	return (
 		<div className="reTweet__header section__padding" id="home">
 			<div className="reTweet__header-content">
-				<h1 className="gradient__text"> Witaj na ReTweet! <br/><br/>
+				<h1 className="gradient__text">
+					{" "}
+					Witaj na ReTweet! <br />
+					<br />
 					To tutaj znajdziesz najbadziej aktualne tweety w jednym miejscu.
 				</h1>
 				<p>
@@ -16,8 +19,14 @@ const Header = () => {
 					consequatur sint eaque minus.
 				</p>
 				<div className="reTweet__header-content__input">
-					<input type="email" placeholder="Twój e-mail" />
-					<button type="button">Wyślij</button>
+					<select type="select" placeholder="Wybierz tematykę">
+						<option value="polityka">Polityka</option>
+						<option value="sport">Sport</option>
+						<option value="kultura">Kultura</option>
+						<option value="tech">Technologia</option>
+					</select>
+
+					<button type="button">Wybierz tematykę</button>
 				</div>
 			</div>
 			<div className="reTweet__header-image">
