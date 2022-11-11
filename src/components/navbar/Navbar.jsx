@@ -9,16 +9,16 @@ const Menu = () => (
 			<a href="#home">Home</a>
 		</p>
 		<p>
-			<a href="#tweets"></a>Tweety
+			<a href="#tweets">Tweety</a>
 		</p>
 		<p>
 			<a href="#about">Czym jest ReTweet?</a>
 		</p>
 		<p>
-			<a href="#next"></a>W planach
+			<a href="#next">W planach</a>
 		</p>
 		<p>
-			<a href="#footer"></a>Kontakt
+			<a href="#footer">Kontakt</a>
 		</p>
 	</>
 );

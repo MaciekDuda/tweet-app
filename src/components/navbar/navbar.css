@@ -49,15 +49,18 @@
 	font-family: var(--font-family);
 	font-weight: 500;
 	font-size: 18px;
-	letter-spacing: 0.15rem;
+	letter-spacing: 0.1rem;
 	line-height: 25px;
 	text-transform: capitalize;
 	margin: 0 1rem;
 	cursor: pointer;
+	transition: 300ms all;
 }
 
 .reTweet__navbar-links_container p:hover {
-	color:aqua
+	color: rgb(8, 174, 225);
+	font-size: 20px;
+	letter-spacing: 0.15rem;
 }
 
 

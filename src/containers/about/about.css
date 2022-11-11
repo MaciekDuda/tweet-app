@@ -40,22 +40,24 @@
 
 .reTweet__about-container {
     display: flex;
-    flex-wrap: wrap;
+    /* flex-wrap: wrap; */
     flex-direction: row;
     margin-top: 2rem;
+    padding: 1rem;
+  
 }
 
 .reTweet__about-container .reTweet__features-container__feature {
     flex: 1;
-    margin: 1rem;
+    /* margin: 1rem; */
     min-width: 210px;
-    display: unset;
+    /* display: unset; */
     flex-direction: column;
 }
 
-.reTweet__about-container .reTweet__features-container_feature-text {
+/* .reTweet__about-container .reTweet__features-container_feature-text {
     margin-top: 0.5rem;
-}
+} */
 
 @media screen and (max-width: 1050px) {
     .reTweet__about-heading {

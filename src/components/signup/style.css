@@ -1,0 +1,92 @@
+.App {
+    height: 100vh;
+    width: auto;
+}
+
+.reTweet__signup {
+	height: 100%;
+    min-width: 800px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.reTweet__signup-container {
+	display: flex;
+    width: 100%;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.reTweet__signup-heading {
+    margin: 2rem 0;
+}
+
+.reTweet__signup-heading h3 {
+    font-family: var(--font-family);
+    font-size: 24px;
+    text-transform: capitalize;
+    color: #fff;
+}
+
+.reTweet__signup-form {
+    display: flex;
+    flex-direction: column;
+    min-width: 400px;
+}
+.reTweet__signup-form_body {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column; 
+}
+.reTweet__signup-form_body div {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 0.2rem;
+    font-family: var(--font-family);
+    font-size: 16px;
+    text-transform: capitalize;
+    color: #fff;
+}
+
+.reTweet__signup-form_body input {
+    background: var(--color-bg);
+	flex: 2;
+	width: 100%;
+	min-height: 50px;
+	color: var(--color-blog);
+	font-family: var(--font-family);
+    font-weight: 400;
+	font-size: 20px;
+	line-height: 27px;
+	border: 2px solid var(--color-blog);
+	padding: 0 1rem;
+	outline: none;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+
+.reTweet__signup-form_footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 2rem;
+}
+.reTweet__signup-form_footer button {
+    padding: 0.5rem 1rem;
+	color: var(--color-bg);
+	background: #284e77;
+	font-family: var(--font-family);
+	font-weight: 500;
+	font-size: 18px;
+	line-height: 25px;
+	letter-spacing: 0.15rem;
+	border-radius: 5px;
+	box-shadow: 0 0 0 5 rgba(0, 0, 0, 0.2);
+	border: none;
+	outline: none;
+	cursor: pointer;
+}
+
