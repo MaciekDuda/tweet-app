@@ -33,6 +33,7 @@
 	width: 100%;
 	margin: 2rem 0 1rem;
 	display: flex;
+	justify-content: flex-start;
 	flex-direction: row;
 }
 .reTweet__header-content__input select {
@@ -45,7 +46,7 @@
     font-weight: 400;
 	font-size: 20px;
 	line-height: 27px;
-	border: 2px solid var(--color-blog);
+	/* border: 2px solid var(--color-blog); */
 	padding: 0 1rem;
 	outline: none;
     border-top-left-radius: 5px;
@@ -56,14 +57,14 @@
 	flex: 0.6;
 	width: 100%;
 	min-height: 50px;
-	padding: 0 1rem;
-	color: var(--color-bg);
+	padding: 0 2rem;
 	background: #284e77;
+	color: var(--color-bg);
 	font-family: var(--font-family);
 	font-weight: 500;
 	font-size: 20px;
 	line-height: 27px;
-    border: 2px solid var(--color-blog);
+    border: 2px solid #284e77;
 	outline: none;
 	cursor: pointer;
 	border-top-right-radius: 5px;
@@ -102,7 +103,7 @@
 	}
 
 	.reTweet__header-content__input button,
-	.reTweet__header-content__input input {
+	.reTweet__header-content__input select {
 		font-size: 16px;
 		line-height: 24px;
 	}
@@ -118,7 +119,7 @@
 		line-height: 24px;
 	}
     .reTweet__header-content__input button,
-	.reTweet__header-content__input input {
+	.reTweet__header-content__input select {
 		font-size: 12px;
 		line-height: 16px;
 	}
