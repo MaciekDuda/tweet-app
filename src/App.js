@@ -24,7 +24,7 @@ const App = () => {
 					<Header />
 					<Test />
 					<Logos />
-					<Tweets />
+					{/* <Tweets /> */}
 					<About />
 					<Next />
 					<Footer />

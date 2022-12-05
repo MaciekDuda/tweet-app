@@ -1,9 +1,24 @@
+
+
 .reTweet__test {
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
-    margin: 1rem 0;
+    margin: 1rem;
 }
+.reTweet__test_embed {
+    display: flex;
+    height: auto;
+    width: 90%;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.reTweet__test_embed__tweet {
+    margin: 10px;
+    padding: 10px;
+}
+
 .reTweet__test-container_tweet{
     font-family: var(--font-family);
     font-size: 12px;
@@ -43,4 +58,8 @@
 	border: none;
 	outline: none;
 	cursor: pointer;
+}
+
+.twitter-timeline-rendered{
+    padding: 25px;
 }
